@@ -1,14 +1,29 @@
 {
-  "pages":[
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/she/she",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/bless/bless"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "欢迎"
+      },
+      {
+        "pagePath": "pages/she/she",
+        "text": "地址"
+      }
+    ]
+  }
 }
