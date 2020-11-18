@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/view/view",
+    "pages/bless/bless",
     "pages/welcome/welcome",
     "pages/she/she",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/bless/bless"
+    "pages/logs/logs"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",
