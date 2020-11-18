@@ -1,0 +1,11 @@
+/* pages/login/login.wxss */
+.title_image{
+  text-align: center;
+}
+
+.app_body{
+  text-align: center;
+}
+.login_view{
+  margin-top: 30%;
+}

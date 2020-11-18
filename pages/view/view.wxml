@@ -2,7 +2,11 @@
 <text>视图容器测试</text>
 
 <!-- hover-class 点击view被点击之后的样式类 -->
-<view class="test_view">
+<!-- <view class="test_view">
   视图组件
+</view> -->
+
+<view>
+  <icon class="icon-box-img" type="success" size="24"></icon>
 </view>
 

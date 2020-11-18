@@ -1,17 +1,17 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/view/view",
     "pages/bless/bless",
     "pages/welcome/welcome",
     "pages/she/she",
     "pages/index/index",
     "pages/logs/logs"
-   
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
+    "navigationBarTitleText": "小程序学习",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
