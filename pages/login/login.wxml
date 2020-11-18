@@ -1,7 +1,7 @@
 <view class="app_body">
   <view class="login_view">
     <view>
-      <image class="title_image" src="../../image/al.jpg"></image>
+      <image class="title_image" src="/image/she/al.jpg"></image>
     </view>
     <view>
       <button type="primary" open-type="getUserInfo" bindgetuserinfo="userLogin">登录按钮 </button>
