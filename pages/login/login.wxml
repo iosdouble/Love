@@ -4,7 +4,8 @@
       <image class="title_image" src="../../image/al.jpg"></image>
     </view>
     <view>
-      <button type="primary" bindtap="userLogin">登录按钮 </button>
+      <button type="primary" open-type="getUserInfo" bindgetuserinfo="userLogin">登录按钮 </button>
+      <!-- <button type="primary" open-type="getUserInfo">登录按钮 </button> -->
     </view>
   </view>
 </view>
