@@ -1,7 +1,4 @@
 /**index.wxss**/
-.userinfo {
-
-}
 
 .userinfo-avatar {
   width: 50rpx;
