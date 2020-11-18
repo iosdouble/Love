@@ -13,6 +13,23 @@ Page({
    */
   onLoad: function (options) {
 
+    console.log("页面被加载")
+    // 查看是否授权
+    wx.getSetting({
+      success (res){
+        console.log("调用授权方法",res)
+        if (res.authSetting['scope.userInfo']) {
+          // 已经授权，可以直接调用 getUserInfo 获取头像昵称
+          console.log("获取信息")
+          wx.getUserInfo({
+            success: function(res) {
+              console.log(res.userInfo)
+            }
+          })
+        }
+      }
+    })
+ 
   },
 
   /**
@@ -63,20 +80,26 @@ Page({
   onShareAppMessage: function () {
 
   },
-
   userLogin:function(){
     console.log("点击了登录按钮") 
-    wx.login({
-      success (res){
-        wx.request({
-          url: 'http://localhost:8888/api/login?code='+res.code,
-          success:function(ressponse){
-            console.log(ressponse)
-          }
-        })
+    wx.getUserInfo({
+      lang: "zh_CN",
+      success(res){
+        console.log(res)
       }
     })
+    // wx.login({
+    //   success (res){
+    //     wx.request({
+    //       url: 'http://localhost:8888/api/login?code='+res.code,
+    //       success:function(ressponse){
+    //         console.log(ressponse)
+    //       }
+    //     })
+    //   }
+    // })
   
   }
+
 
 })
