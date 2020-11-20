@@ -6,3 +6,42 @@
   margin: 20rpx;
   border-radius: 50%;
 }
+
+.top_img{
+  width: 100%;
+  height: 250px;
+  text-align: center;
+}
+
+.button_view{
+  width: 100%;
+  height: auto;
+}
+
+.option_button{
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 80px;
+}
+
+.option_one{
+  background-color: deeppink;
+  color: white;
+  float: left;
+  left: 10px;
+}
+.option_tow{
+  float: right;
+  right: 10px;
+}
+.option_three{
+  float: left;
+  left: 10px;
+}
+.option_four{
+  float: right;
+  right: 10px;
+}

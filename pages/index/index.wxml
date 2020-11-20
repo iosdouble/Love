@@ -1,12 +1,14 @@
 <!--index.wxml-->
-<view class="container">
-  <view wx:for="{{array}}" wx:key = "index" >
-    {{index}}:{{item.message}}
+<view>
+  <view>
+    <image class="top_img" src="../../image/img/top_img.jpg"></image>
   </view>
-  <view>{{hello}}</view>
-  
-  <view id="item-{{id}}"></view>
 
-  <view class='countDown'>倒计时：<text style='color:red'>{{countDownNum}}</text></view>
-  <button bindtap="getPicInfo">点击播放音乐</button>
+  <view class="button_view" >
+    <button class="option_button option_one">点击有惊喜</button>
+    <button class="option_button option_tow">点击有惊喜</button>
+    <button class="option_button option_three">点击有惊喜</button>
+    <button class="option_button option_four">点击有惊喜</button>
+  </view>
+
 </view>

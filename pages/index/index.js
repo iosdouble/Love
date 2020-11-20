@@ -20,7 +20,7 @@ Page({
     musicMsg: {},//接收数据对象
   },
   onLoad: function () {
-
+    this.getPicInfo()
   },
   onShow: function () {
     //什么时候触发倒计时，就在什么地方调用这个函数
@@ -71,10 +71,6 @@ Page({
         bgMusic.src = res.data.bitrate.file_link;
         console.log("播放音乐",bgMusic)
         bgMusic.play(); //播放音乐
-        // that.listenerButtonPlay(res.data.bitrate.file_link) //成功回调执行播放音乐
-        // that.setData({
-        //   musicMsg: res.data.bitrate, //赋值对象
-        // })
 
       }
     })

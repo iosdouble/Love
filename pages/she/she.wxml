@@ -5,43 +5,44 @@
   <view class="cube">
     <!--前面图片 -->
     <view class="out_front">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/13.jpg" class="pic" />
     </view>
     <!--后面图片 -->
     <view class="out_back">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/14.jpg" class="pic" />
     </view>
     <!--左图片 -->
     <view class="out_left">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/15.jpg" class="pic" />
     </view>
     <view class="out_right">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/16.jpg" class="pic" />
     </view>
     <view class="out_top">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/17.jpg" class="pic" />
     </view>
     <view class="out_bottom">
-      <image src="/image/she/timg.jpg" class="pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/18.jpg" class="pic" />
     </view>
+    
     <!--小正方体 -->
     <view class="in_front">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/19.jpg" class="in_pic" />
     </view>
     <view class="in_back">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/20.jpg" class="in_pic" />
     </view>
     <view class="in_left">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/21.jpg" class="in_pic" />
     </view>
     <view class="in_right">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/22.jpg" class="in_pic" />
     </view>
     <view class="in_top">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/23.jpg" class="in_pic" />
     </view>
     <view class="in_bottom">
-      <image src="/image/she/timg.jpg" class="in_pic" />
+      <image src="cloud://ceshi-68qeh.6365-ceshi-68qeh-1303071972/image/she/24.jpg" class="in_pic" />
     </view>
   </view>
 </view>
